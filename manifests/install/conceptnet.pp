@@ -70,7 +70,7 @@ postgresql::server::pg_hba_rule { 'allow db access over a local socket':
 vcsrepo { '/home/conceptnet/conceptnet5':
   ensure   => 'latest',
   provider => 'git',
-  source   => 'https://github.com/commonsense/conceptnet5.git',
+  source   => 'https://github.com/DbrRoxane/conceptnet5.git',
   revision => 'version5.7',
   user     => 'conceptnet',
   require  => User['conceptnet'],
